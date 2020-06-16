@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Server>
+    <Service>
+        <Connector>
+            <Engine>
+                <Host name="localhost" appBase="Users/webapps">
+                    <Context path="/demo1" docBase="demo1" debug="0" reloadbale="true"/>
+                    <Context path="/demo2" docBase="demo2" debug="0" reloadbale="true"/>
+                </Host>
+            </Engine>
+        </Connector>
+    </Service>
+</Server>
